@@ -1,0 +1,53 @@
+.Greet-user{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: white;
+
+}
+.time {
+    font-size: 8rem;
+}
+
+.Greet-user h1 {
+    margin-bottom: 3rem;
+}
+
+.Greet-user h2 {
+    margin-bottom: 0.5rem;
+    opacity: 0.6;
+}
+
+.Arrow{
+    border: 3px solid;
+    margin-top: 43px;
+    border-radius: 50%;
+    /* padding: 3px; */
+    overflow: hidden;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Arrow svg{
+    width:35px;
+    height: 30px;
+    margin-top: 3px;
+    transition: all 0.3s ease-out;
+}
+
+.Arrow:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 700px) {
+    .time {
+        font-size: 6rem;
+    }
+}
