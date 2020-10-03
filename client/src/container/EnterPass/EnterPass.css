@@ -1,0 +1,94 @@
+.EnterPass{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    width: 400px;
+    height: max-content;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.hr{
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.2rem;
+    border-left: 15px solid #053fff;
+    font-weight: normal;
+    padding: 15px;
+}
+.EnterPass hr{
+    width: 60%;
+    height: 4px;
+    border: none;
+    background-color: white;
+}
+
+.pass-input-div{
+    display: flex;
+    border-bottom: 1px solid white;
+    margin: 40px 0;
+    padding-bottom: 20px;
+}
+
+.pass-input-div svg{
+    margin-right: 15px;
+    width: 30px;
+}
+
+.pass-input-div input{
+    border: none;
+    background: transparent;
+    outline: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+input:select{
+    outline: none;
+    background: transparent;
+}
+
+::placeholder { 
+    color: white;
+    opacity: 0.8;
+  }
+
+.EnterPass button{
+    outline: none;
+    border: none;
+    color: white;
+    background: transparent;
+    font-size: 1.5rem;
+    display: flex;
+    font-weight: bold;
+}
+
+.EnterPass button:hover svg{
+    margin-left: 20px;
+}
+.EnterPass button svg{
+    width: 25px;
+    margin-left: 10px;
+    transition: all 0.1s ease-in;
+}
+
+
+.sign-up-and-forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-top: 60px;
+}
+
+.sign-up-and-forgot button{
+    font-size: 1rem;
+    width: max-content;
+}

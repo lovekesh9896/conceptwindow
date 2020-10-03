@@ -1,0 +1,32 @@
+.Background-info{
+    position: fixed;
+    left: 4vw;
+    bottom: 4vh;
+    box-sizing: border-box;
+    color: white;
+    opacity: 0.7;
+    transition: all 0.1s ease-in-out;
+    text-align: center;
+    z-index: 1000;
+}
+
+.Background-info svg{
+    width: 30px;
+}
+
+.Background-info:hover{
+    opacity: 1;
+}
+
+.Background-info:hover > .Background-by{
+    opacity: 1;
+    display: block;
+}
+
+.Background-by{
+    position: fixed;
+    bottom: 3vh;
+    left: 8vw;
+    display: none;
+}
+

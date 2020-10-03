@@ -1,0 +1,71 @@
+.Home{
+    display: flex;
+}
+
+.left{
+    width: 35vw;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.right{
+    width: 65vw;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: auto;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right button{
+    position: fixed;
+    right: 4vw;
+    bottom: 4vw;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+}
+
+
+.left-top{
+    width: 100%;
+    height: calc(100vh - 80px);
+    box-sizing: border-box;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.left-bottom{
+    padding: 10px;
+}
+
+.left-bottom button{
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 8px;
+    border: 4px solid green;
+    color: green;
+    background: transparent;
+    outline: none;
+    transition: all 0.2s ease-out;
+    font-weight: bold;
+}
+
+.left-bottom button:hover{
+    background: green;
+    color: white;
+}
+
